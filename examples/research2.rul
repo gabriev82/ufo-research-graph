@@ -1,0 +1,10 @@
+research:
+  - name: STR_XXX
+    cost: 50
+    points: 10
+  - name: STR_YYY
+    cost: 180
+    points: 20
+  - name: STR_SUPPLY_SHIP
+    points: 9999
+    needItem: true

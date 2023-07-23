@@ -1,0 +1,301 @@
+body {
+	color: 999;
+	padding: 15px;
+}
+textarea {
+	width: 100%;
+	height: 20vh;
+	border: 1px solid #ddd;
+	background-color: #eee;
+	padding: 10px;
+	box-sizing: border-box;
+}
+fieldset {
+	border: 1px solid #ddd;
+	display: inline-block;
+	box-sizing: border-box;
+}
+fieldset label {
+	margin-right: 10px;
+}
+
+input[type=text] {
+	width: 250px;
+	border: 1px solid #666;
+	padding: 4px;
+	box-sizing: border-box;
+}
+
+input[type=number] {
+	width: 70px;
+	border: 1px solid #666;
+	padding: 4px;
+	box-sizing: border-box;	
+}
+
+select {
+	border: 1px solid #666;
+	padding: 4px;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 28px;
+	margin: 0;
+	padding-bottom: 30px;
+}
+
+.loaded-list-files {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#submit {
+	border: 3px solid #86d083;
+	background-color: #88e6ac;
+	color: #000;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#submit:hover {
+	background-color: #75d89b;
+}
+
+.download-image {
+	/*padding-top: 20px;*/
+	display: inline;
+	margin-left: 10px;
+}
+
+.download-image a {
+	display: inline-block;
+	border: 1px solid #999;
+	background-color: #eee;
+	color: #000;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+pre {
+	/*display: none;*/
+}
+
+p.desc {
+	font-weight: bold;
+}
+
+.panzoom-parent {
+	border: 1px solid #eee;
+	position: relative; 
+	user-select: none; 
+	touch-action: none;
+	overflow: hidden; 
+	min-height: 70vh;
+}
+
+#graph-rendered {
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	padding: 10px;
+	/*margin-top: 20px;*/
+}
+
+/*
+#graph-rendered img {
+	width: 100%;
+	height: auto;
+}
+*/
+
+#graph-rendered svg {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.form-box {
+	height: 0;
+	overflow: hidden;
+}
+
+.form-box.show {
+	display: block;
+	height: auto;
+	overflow: visible;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #555;
+}
+
+.code-box {
+	height: 0;
+	overflow: hidden;
+}
+
+.code-box.show {
+	display: block;
+	height: auto;
+	overflow: visible;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #555;
+}
+
+
+.TODO {
+	background-color: #eee;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+
+.info-legend::after {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin-left: 20px;
+}
+
+.info-legend-unlock::after {
+	content: "\2192";
+	color: black;
+}
+
+.info-legend-requires::after {
+	/*content: "\2190";*/
+	content: "\2192";
+	color: red;
+}
+
+.info-legend-dependencies::after {
+	/*content: "\2190";*/
+	content: "\2192";
+	color: orange;
+}
+
+.info-legend-lookup::after {
+	content: "\2192";
+	color: gray;
+}
+
+.info-legend-getonefree::after {
+	content: "\2192";
+	color: green;
+}
+
+.info-legend-getonefreeprotected::after {
+	content: "\2192";
+	color: blue;
+}
+
+
+.download-source-code {
+	background-color: #eee;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+.download-source-code p {
+	font-weight: bold;
+}
+
+
+.form-box-toggle {
+	padding-bottom: 20px;
+}
+
+.form-box-toggle a {
+	padding: 10px;
+	border: 1px solid #333;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	background-color: #eee;
+}
+
+
+.container-box {
+	/*background-color: red;*/
+}
+
+.container-box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.left-side-box {
+	width: 33vw;
+	position: relative;
+	z-index: 9000;
+	float: left;
+}
+
+.left-side-box.full-width {
+	width: auto;
+	float: none;
+}
+
+
+.main-box {
+	position: relative;
+	z-index: 1000;
+	padding-left: 35vw;
+}
+
+.container-box.wide {
+
+}
+
+.container-box.wide .left-side-box {
+	display: none;
+}
+
+.container-box.wide .main-box {
+	padding-left: 0;
+}
+
+
+/*
+.TODO {
+	display: none;
+}
+
+p.desc { 
+	font-weight: normal;
+}
+
+h1 {
+	display: none;
+}
+
+.download-source-code {
+	display: none;
+}
+
+#graph-rendered { 
+	opacity: 0.1;
+}
+
+
+#submit {
+	border: 1px solid #000;
+	background-color: #fff;
+	color: #000;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#submit:hover {
+	background-color: #fff;
+}
+*/

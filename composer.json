@@ -1,0 +1,7 @@
+{
+    "require": {
+        "symfony/yaml": "^5.2",
+        "graphp/graphviz": "^0.2.2",
+        "graphp/algorithms": "0.8.2"
+    }
+}

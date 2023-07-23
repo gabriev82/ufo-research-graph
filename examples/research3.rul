@@ -1,0 +1,14 @@
+patate2:
+  - name: test
+
+research:
+  # - delete: STR_XXX
+
+  - name: STR_ZZZZ
+    cost: 150
+    points: 110
+  - name: STR_SUPPLY_SHIP
+    points: 1111
+    needItem: true
+  - name: STR_XXX
+    cost: 999
